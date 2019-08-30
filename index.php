@@ -96,7 +96,7 @@ if($result)
 {
     $rows = mysqli_num_rows($result); // количество полученных строк
      
-    echo "<table><tr><th>Id</th><th>Модель</th><th>Производитель</th></tr>";
+    echo "<table><tr><th>Id</th><th>Имя</th><th>Текст</th></tr>";
     for ($i = 0 ; $i < $rows ; ++$i)
     {
         $row = mysqli_fetch_row($result);
